@@ -15,7 +15,14 @@ robot --version
 rebot --version
 ```
 
-2. Chrome
+Cài đặt rpaframework:
+
+```cmd
+pip install rpaframework
+pip install pymysql
+```
+
+1. Chrome
 
 Cài đặt chrome version mới tại [Chrome](https://www.google.com/chrome/)
 
@@ -29,6 +36,8 @@ start chrome.exe -remote-debugging-port=9222
 ```cmd
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
 ```
+
+Sau đó đăng nhập vào web easycredit.
 
 # Chạy robot
 
