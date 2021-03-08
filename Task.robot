@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 *** Settings ***
 Documentation     Trust Connect 2nd auto-fill bot on Easy Credit website
-Library           RPA.Browser
-Library           RPA.HTTP
+Library           Browser
+Library           HTTP
 Library           DateTime
 Library           RPA.Database
 Library           RPA.Excel.Files
