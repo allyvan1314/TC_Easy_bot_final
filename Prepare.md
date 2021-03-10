@@ -1,16 +1,23 @@
+# Download file
+
+1. Truy cập link [github](https://github.com/allyvan1314/TC_Easy_bot_final)
+2. Chọn download file (Zip) như hình:
+
+![image](https://user-images.githubusercontent.com/49230626/110578210-df845000-8196-11eb-9960-8e9fc9a4f7a2.png)
+
 # Chuẩn bị môi trường chạy
 
 1. Python & robot framework
 
 Kiểm tra python đã cài đặt:
 
-```python
+```cmd
 python --version
 ```
 
 Kiểm tra robot framework:
 
-```robot
+```cmd
 robot --version
 rebot --version
 ```
