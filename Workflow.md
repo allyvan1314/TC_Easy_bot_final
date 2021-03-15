@@ -18,6 +18,7 @@ Quy trình hoạt động của bot như sau:
 3. Connect với DB, load toàn bộ hồ sơ đủ điều kiện (có remark = 1)
 4. Thực hiện lần lượt từng bước từ 0-4 với thông tin từng hồ sơ. Lưu ý, tại bước 0, nếu số tiền vay hoặc số tháng không nằm trong khoảng phù hợp, bot sẽ lấy giá trị là min (nếu số nhập vào nhỏ hơn khoảng) hoặc max (nếu số nhập vào lớn hơn khoảng)
 5. Sau khi hoàn thành bước 4, cập nhật status của hồ sơ (2 nếu bị từ chối hoặc lỗi ở bất kỳ bước nào, 3 nếu gửi thành công)
+6. Bắt đầu lại vòng lặp với hồ sơ kế tiếp
 
 # Bước 3:
 
