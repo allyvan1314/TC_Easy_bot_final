@@ -42,6 +42,7 @@ Execute Step 0
     
     ## Tenor
     ${w}    ${h}=   Get Element Size    id:js-rangeslider-1
+    ${w}=           Evaluate    ${w}-15
     ${T_min}=      Get Element Attribute  id:periodSlider   min
     ${T_max}=      Get Element Attribute  id:periodSlider   max
     ${T_step}=     Get Element Attribute  id:periodSlider   step
