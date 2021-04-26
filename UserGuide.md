@@ -22,10 +22,12 @@ robot --version
 rebot --version
 ```
 
-Cài đặt rpaframework:
+Cài đặt framework:
 
 ```cmd
 pip install rpaframework
+pip install rpa
+pip install rpaframework.databaselibrary
 pip install pymysql
 ```
 
